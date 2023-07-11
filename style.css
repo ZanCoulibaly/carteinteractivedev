@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(24, 25, 26);
+}
+
+#name {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    opacity: 0;
+    text-align: justify;
+    border-radius: 15px 0 15px 0;
+    border: 2px solid orange;
+    padding: 0px 5px;
+    font-size: 1.5rem;
+
+}
+
+
+#timeCont{
+    background-color: white;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 3px solid rgb(245, 128, 128);        
+}
+svg{
+    zoom: 1;
+}
+
+svg path {
+    cursor: pointer;
+}
+.land
+{
+    fill: #CCCCCC;
+    fill-opacity: 1;
+    stroke:white;
+    stroke-opacity: 1;
+    stroke-width:0.5;
+}
