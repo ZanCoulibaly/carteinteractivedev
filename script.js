@@ -24,20 +24,23 @@ document.querySelectorAll(".allPaths").forEach(e => {
             document.getElementById('name').style.top = y - 60 + 'px'
             document.getElementById('name').style.left = x + 10 + 'px'
 
-            var cle = data.target.attributes
-            var emails = cle.title.nodeValue
-            console.log(emails);
-            document.getElementById("title").innerText = emails
+
         }
         // 
         // document.querySelectorAll(".allPaths").forEach(i => {
         //     i.style.fill = "#ececec"
         // })
+        var cle = data.target.attributes
+        var lien = cle.lien.nodeValue
+        var emails = cle.title.nodeValue
+        console.log(lien);
+        document.getElementById("image").innerHTML=`<img src=${lien} alt="">`
+        document.getElementById("title").innerText = emails
         e.style.fill = "orange"
         document.getElementById("name").style.opacity = 1
 
         document.getElementById("namep").innerText = e.id
-        
+
 
         // console.log(e.title);
     })

@@ -21,7 +21,9 @@ body {
     font-size: 1.5rem;
 
 }
-
+#image img{
+    width: 60px;
+}
 
 #timeCont{
     background-color: white;
